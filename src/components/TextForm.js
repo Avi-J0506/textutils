@@ -33,8 +33,7 @@ export default function TextForm(props) {
       for(var i = 0; i<text.length; i++){
         switch (text[i]){
           case 'a':case 'i': case 'o':case 'u':case 'e':case 'A':case 'E': case 'I':case 'O':case 'U':
-            v++
-            break;
+          v++;
         }
       }
       setVowel(v);
